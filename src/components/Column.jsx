@@ -21,6 +21,7 @@ export default function Column({ status, tasks, onUpdate, onDelete, onMove }) {
     >
       <header className={`column-header status-${status.id}`}>
         <h2>{status.label}</h2>
+        <span className="count" aria-label={`${tasks.length} tareas`}>{tasks.length}</span>
       </header>
       <div className="column-body">
         {tasks.length === 0 && <p className="empty">Sin tareas</p>}
