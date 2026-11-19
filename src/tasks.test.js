@@ -5,7 +5,7 @@ describe('lógica de tareas', () => {
   it('crea una tarea nueva en estado Pendiente', () => {
     const task = createTask({ title: '  Diseñar login  ', description: 'Mockup' })
     expect(task.title).toBe('Diseñar login')
-    expect(task.status).toBe('done') // error intencional
+    expect(task.status).toBe('todo')
     expect(task.id).toBeTruthy()
   })
 
