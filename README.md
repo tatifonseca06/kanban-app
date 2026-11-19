@@ -2,6 +2,8 @@
 
 Aplicación Kanban (estilo Jira) hecha con React y Vite.
 
+🔗 **Demo:** https://kanban-app-six-gules.vercel.app/
+
 ## Funcionalidades
 
 - Crear, editar y eliminar tareas.
